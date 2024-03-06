@@ -17,18 +17,26 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Hello, I&apos;m{" "}
+              Hello, I&apos;m{" "} 
             </span>
             <br></br>
             <TypeAnimation
               sequence={[
-                "Judy",
+                "Kaitao",
                 1000,
-                "Web Developer",
+                "Kyle",
                 1000,
-                "Mobile Developer",
+                "Programmar ?",
                 1000,
-                "UI/UX Designer",
+                "Accountant ?",
+                1000,
+                "Web Developer ?",
+                1000,
+                "Auditor ?",
+                1000,
+                "Basketball player?",
+                1000,
+                "Poker Player ?",
                 1000,
               ]}
               wrapper="span"
@@ -37,8 +45,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+            Alwyays on the way of exploration
           </p>
           <div>
             <Link
